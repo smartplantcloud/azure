@@ -14,7 +14,8 @@ workflow Test-WorkflowStep
          [String] $DestinationDomain
 
      )
-
+    
+    # Ian test Comment - pushing from Azure
     $WorkflowName = "Test-WorkflowStep"
     Write-Verbose "($WorkflowName) Initialize parameters and invoke appropriate modules"
 
@@ -143,7 +144,3 @@ workflow Test-WorkflowStep
     Write-Output "$EstateGroup ($SourceDomain) clone execution complete"
     
 }
-
-
-
-
